@@ -1,0 +1,69 @@
+header {
+    text-align: center;
+    background-color: #E6E6E6;
+
+    /* Solución linea blanca rara después entre el header y el h1 */
+    padding-bottom: 20px;
+    margin-bottom: -32px;
+
+}
+
+/* ===========================Sections======================== */
+
+h1, h2 {
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 5px;
+}
+
+ul {
+    margin-bottom: 35px;
+}
+
+ul li{
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size:38px;
+    letter-spacing: 12px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+dl {
+    margin-bottom: 35px;
+}
+dl .ddUno {
+    margin-top: -20px;
+}
+
+dl dd {
+    margin-left: 80px;
+}
+
+dl .ddDos {
+    margin-bottom: 15px;
+}
+
+section:last-child {
+    margin-bottom: 180px;
+}
+
+/* ===========================footer======================== */
+
+
+section.informacion {
+    background-color: #005677;
+    height: 40px;
+    text-align: center;
+   color: #FFFF;
+   font-size: 28px;
+   margin-bottom: 0;
+   font-weight: bold;
+}
+
+section.informacion img {
+    margin-top: 10px;
+    margin-left: 15px;
+}
